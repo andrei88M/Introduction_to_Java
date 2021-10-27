@@ -1,5 +1,5 @@
 package service;
 
 public interface TaskFactory {
-    void solving(int taskNumber);
+    void task(int taskNumber);
 }

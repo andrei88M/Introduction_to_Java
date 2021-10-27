@@ -1,11 +1,11 @@
 package service.two;
 
-import service.Task;
+import tasks.Task;
 import tasks._02_algorithmization.sorting.*;
 
 public class Sorting implements AlgorithmizationFactory {
     @Override
-    public void solving(int taskNumber) {
+    public void task(int taskNumber) {
         Task task;
         if (taskNumber == 1) {
             task = new Task1();

@@ -1,7 +1,7 @@
 package tasks._01_basics_of_software_code_development.branch;
 
-import service.AbstractTask;
-import service.Task;
+import tasks.AbstractTask;
+import tasks.Task;
 
 public class Task5 extends AbstractTask implements Task {
     @Override

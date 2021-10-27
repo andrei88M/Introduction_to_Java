@@ -1,12 +1,12 @@
 package service.one;
 
-import service.Task;
+import tasks.Task;
 import tasks._01_basics_of_software_code_development.branch.*;
 
 public class Branch implements BasicOfSoftwareFactory {
     private Task task;
     @Override
-    public void solving(int taskNumber) {
+    public void task(int taskNumber) {
         if (taskNumber == 1) {
             task = new Task1();
         } else if (taskNumber == 2) {

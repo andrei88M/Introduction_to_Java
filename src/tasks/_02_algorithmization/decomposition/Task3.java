@@ -1,7 +1,7 @@
 package tasks._02_algorithmization.decomposition;
 
-import service.AbstractTask;
-import service.Task;
+import tasks.AbstractTask;
+import tasks.Task;
 
 public class Task3 extends AbstractTask implements Task {
     private double getArea(int a) {

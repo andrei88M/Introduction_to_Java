@@ -1,7 +1,7 @@
 package tasks._02_algorithmization.one_dimensionalArrays;
 
-import service.AbstractTask;
-import service.Task;
+import tasks.AbstractTask;
+import tasks.Task;
 
 public class Task6 extends AbstractTask implements Task {
 

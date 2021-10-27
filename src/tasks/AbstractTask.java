@@ -1,4 +1,4 @@
-package service;
+package tasks;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -62,5 +62,21 @@ public abstract class AbstractTask {
             }
             System.out.println();
         }
+    }
+
+    protected boolean getBoolean(String str, int index) {
+        if (str.charAt(index) == 0 ||
+                str.charAt(index) == '1' ||
+                str.charAt(index) == '2' ||
+                str.charAt(index) == '3' ||
+                str.charAt(index) == '4' ||
+                str.charAt(index) == '5' ||
+                str.charAt(index) == '6' ||
+                str.charAt(index) == '7' ||
+                str.charAt(index) == '8' ||
+                str.charAt(index) == '9') {
+            return true;
+        }
+        return false;
     }
 }

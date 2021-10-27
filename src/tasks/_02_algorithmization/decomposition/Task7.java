@@ -1,6 +1,6 @@
 package tasks._02_algorithmization.decomposition;
 
-import service.Task;
+import tasks.Task;
 
 import java.math.BigInteger;
 

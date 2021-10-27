@@ -1,13 +1,13 @@
 package service.two;
 
-import service.Task;
+import tasks.Task;
 import tasks._02_algorithmization.multidimensionalArray.*;
 
 public class MultiArray implements AlgorithmizationFactory {
     private Task task;
 
     @Override
-    public void solving(int taskNumber) {
+    public void task(int taskNumber) {
         if (taskNumber == 1) {
             task = new Task1();
         } else if (taskNumber == 2) {

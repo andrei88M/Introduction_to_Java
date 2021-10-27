@@ -1,7 +1,7 @@
 package tasks._02_algorithmization.decomposition;
 
-import service.AbstractTask;
-import service.Task;
+import tasks.AbstractTask;
+import tasks.Task;
 
 public class Task16 extends AbstractTask implements Task {
     @Override
@@ -24,7 +24,7 @@ public class Task16 extends AbstractTask implements Task {
         long sum = 0;
         for (int i = (int) Math.pow(10, n - 1); i < (int) Math.pow(10, n); i++) {
             int numb2 = i;
-            for (int j = 1; j < n; j++) {
+            for (int j = 1; j <= n; j++) {
                 int numb = numb2 % 10;
                 numb2 /= 10;
                 if (numb % 2 != 0) continue;
@@ -43,7 +43,6 @@ public class Task16 extends AbstractTask implements Task {
     private int searchEven(long sum) {
         int count = 0;
         while (sum > 0) {
-            count++;
             byte numb = (byte) (sum % 10);
             sum = sum / 10;
             if (numb % 2 == 0) {

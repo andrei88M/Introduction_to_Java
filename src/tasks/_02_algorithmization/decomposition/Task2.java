@@ -1,7 +1,7 @@
 package tasks._02_algorithmization.decomposition;
 
-import service.AbstractTask;
-import service.Task;
+import tasks.AbstractTask;
+import tasks.Task;
 
 public class Task2 extends AbstractTask implements Task {
     private int searchGCD(int a, int b, int c, int d) {

@@ -1,7 +1,7 @@
 package tasks._02_algorithmization.sorting;
 
-import service.AbstractTask;
-import service.Task;
+import tasks.AbstractTask;
+import tasks.Task;
 
 public class Task5 extends AbstractTask implements Task {
     private static int index;

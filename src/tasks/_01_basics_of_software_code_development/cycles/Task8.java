@@ -1,7 +1,7 @@
 package tasks._01_basics_of_software_code_development.cycles;
 
-import service.AbstractTask;
-import service.Task;
+import tasks.AbstractTask;
+import tasks.Task;
 
 public class Task8 extends AbstractTask implements Task {
     private static int[][] arr = new int[][]{{0, 0}, {1, 0}, {2, 0}, {3, 0}, {4, 0}, {5, 0}, {6, 0}, {7, 0}, {8, 0}, {9, 0}};
