@@ -1,7 +1,7 @@
 package service.three;
 
-import tasks.Task;
-import tasks._03_string_and_basic_of_text_processing.work_with_regular_expressions.*;
+import task.Task;
+import task._03_string_and_basic_of_text_processing.work_with_regular_expressions.*;
 
 public class RegularExpressions implements StringAndBasicOfTextProcessingFactory {
     private Task task;

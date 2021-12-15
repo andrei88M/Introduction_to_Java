@@ -1,7 +1,7 @@
 package service.foir;
 
-import tasks.Task;
-import tasks._04_programming_with_classes.aggregation_and_composition.*;
+import task.Task;
+import task._04_programming_with_classes.aggregation_and_composition.*;
 
 public class AggregationAndComposition implements ProgrammingWithClassesFactory{
     private Task task;

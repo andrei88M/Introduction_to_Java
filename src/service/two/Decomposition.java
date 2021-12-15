@@ -1,7 +1,7 @@
 package service.two;
 
-import tasks.Task;
-import tasks._02_algorithmization.decomposition.*;
+import task.Task;
+import task._02_algorithmization.decomposition.*;
 
 public class Decomposition implements AlgorithmizationFactory {
     private Task task;

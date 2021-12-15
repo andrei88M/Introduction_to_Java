@@ -1,7 +1,7 @@
 package service.foir;
 
-import tasks.Task;
-import tasks._04_programming_with_classes.simplest_classes_and_objects.*;
+import task.Task;
+import task._04_programming_with_classes.simplest_classes_and_objects.*;
 
 public class SimplestClassesAndObjects implements ProgrammingWithClassesFactory {
     private Task task;

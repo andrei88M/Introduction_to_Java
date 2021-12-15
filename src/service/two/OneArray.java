@@ -1,7 +1,7 @@
 package service.two;
 
-import tasks.Task;
-import tasks._02_algorithmization.one_dimensionalArrays.*;
+import task.Task;
+import task._02_algorithmization.one_dimensionalArrays.*;
 
 public class OneArray implements AlgorithmizationFactory {
     private Task task;

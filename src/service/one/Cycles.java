@@ -1,7 +1,7 @@
 package service.one;
 
-import tasks.Task;
-import tasks._01_basics_of_software_code_development.cycles.*;
+import task.Task;
+import task._01_basics_of_software_code_development.cycles.*;
 
 public class Cycles implements BasicOfSoftwareFactory {
     private Task task;

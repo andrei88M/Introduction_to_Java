@@ -1,7 +1,7 @@
 package service.five;
 
-import tasks.Task;
-import tasks._05_basic_of_oop.*;
+import task.Task;
+import task._05_basic_of_oop.*;
 
 public class BasicOfOOP implements BasicOfOOPFactory{
     private Task task;

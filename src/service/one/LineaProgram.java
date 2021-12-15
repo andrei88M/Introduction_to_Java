@@ -1,7 +1,7 @@
 package service.one;
 
-import tasks.Task;
-import tasks._01_basics_of_software_code_development.lineaPrograms.*;
+import task.Task;
+import task._01_basics_of_software_code_development.lineaPrograms.*;
 
 public class LineaProgram implements BasicOfSoftwareFactory {
     private Task task;

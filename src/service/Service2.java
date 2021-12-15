@@ -3,6 +3,8 @@ package service;
 import service.five.*;
 import service.foir.ProgrammingWithClasses;
 import service.one.BasicOfSoftwareCodeDevelopment;
+import service.six.Tasks;
+import service.six.TasksFactory;
 import service.three.StringAndBasicOfTextProcessing;
 import service.two.Algorithmization;
 
@@ -26,5 +28,7 @@ public class Service2 {
     public BasicOfOOPFactory basicOfOOP() {
         return new BasicOfOOP();
     }
-
+    public TasksFactory tasks(){
+        return new Tasks();
+    }
 }

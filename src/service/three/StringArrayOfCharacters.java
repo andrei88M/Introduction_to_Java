@@ -1,7 +1,7 @@
 package service.three;
 
-import tasks.Task;
-import tasks._03_string_and_basic_of_text_processing.working_with_a_string_as_with_an_array_of_characters.*;
+import task.Task;
+import task._03_string_and_basic_of_text_processing.working_with_a_string_as_with_an_array_of_characters.*;
 
 public class StringArrayOfCharacters implements StringAndBasicOfTextProcessingFactory {
     private Task task;

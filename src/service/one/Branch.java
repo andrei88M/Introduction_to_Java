@@ -1,7 +1,7 @@
 package service.one;
 
-import tasks.Task;
-import tasks._01_basics_of_software_code_development.branch.*;
+import task.Task;
+import task._01_basics_of_software_code_development.branch.*;
 
 public class Branch implements BasicOfSoftwareFactory {
     private Task task;

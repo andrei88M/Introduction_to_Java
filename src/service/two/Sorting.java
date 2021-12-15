@@ -1,7 +1,7 @@
 package service.two;
 
-import tasks.Task;
-import tasks._02_algorithmization.sorting.*;
+import task.Task;
+import task._02_algorithmization.sorting.*;
 
 public class Sorting implements AlgorithmizationFactory {
     @Override

@@ -1,7 +1,7 @@
 package service.two;
 
-import tasks.Task;
-import tasks._02_algorithmization.multidimensionalArray.*;
+import task.Task;
+import task._02_algorithmization.multidimensionalArray.*;
 
 public class MultiArray implements AlgorithmizationFactory {
     private Task task;
